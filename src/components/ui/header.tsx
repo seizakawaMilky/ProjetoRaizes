@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import logoImage from "@/assets/logo_voluntarios.png";
 
 interface HeaderProps {
   isAuthenticated?: boolean;
@@ -32,7 +33,9 @@ export default function Header({ isAuthenticated = false }: HeaderProps) {
             to="/" 
             className="text-xl font-bold text-primary hover:text-primary-hover transition-colors"
           >
-            Voluntários do Conhecimento
+            <img
+                src={logoImage} width={50}
+              />
           </Link>
           
           <ul className="flex space-x-8">

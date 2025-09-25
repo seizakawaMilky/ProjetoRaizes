@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
-import heroImage from "@/assets/hero-fist-bump.jpg";
+import heroImage from "@/assets/maos_dadas.jpg";
 
 export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-                Conectando conhecimento a quem mais precisa.
+                Voluntários do Conhecimento: <br/>Conectando conhecimento a quem mais precisa.
               </h1>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
